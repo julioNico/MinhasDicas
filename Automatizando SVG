@@ -1,0 +1,1 @@
+for var in 7 6 5 4 3 2 1 ; do sed "s/§/$var/" LDSDS_oficial.svg > LDSDS-$var.svg; inkscape --without-gui --file=LDSDS-$var.svg --export-png=LDSDS-$var.png; done
